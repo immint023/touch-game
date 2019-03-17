@@ -1,0 +1,38 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #00b894;
+  /* position: relative; */
+}
+.point {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Roboto", sans-serif;
+  font-size: 10rem;
+  color: #f4f4f4;
+  margin: 0;
+  user-select: none;
+}
+.min {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  color: #f4f4f4;
+  margin-top: 2rem;
+  margin-left: 2rem;
+  user-select: none;
+}
+.second {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  color: #f4f4f4;
+  margin-top: 2rem;
+  user-select: none;
+}
+span {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  color: #f4f4f4;
+  padding-right: 5px;
+}
